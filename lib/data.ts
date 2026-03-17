@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
   description: "Galería, blog y contacto – Taller SENA CEET",
   url: "https://mi-sitio.azurestaticapps.net",
   author: "SENA CEET – ADSO",
-  year: new Date().getFullYear(),  // Año dinámico
+  year: new Date().getFullYear(),
 };
 
 export const heroImage = {
@@ -20,7 +20,6 @@ export const heroImage = {
 export const galleryImages: GalleryImageType[] = [
   { id:1, src:"/img/img1.jpg", alt:"Ciudad futurista con luces neón", width:1024, height:768 },
   { id:2, src:"/img/img2.jpg", alt:"Caballo en paisaje brumoso", width:1024, height:768 },
-  // ... (agregar las 6 imágenes)
 ];
 
 export const blogPosts: BlogPost[] = [
@@ -32,5 +31,4 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Cómo la IA transforma los espacios de trabajo...",
     image: { src: "/img/img7.jpg", alt: "Robot en escritorio" },
   },
-  // ... (agregar las 3 entradas)
 ];
