@@ -8,7 +8,7 @@ interface HeroSectionProps { imageSrc: string; imageAlt: string; }
 
 export default function HeroSection({ imageSrc, imageAlt }: HeroSectionProps) {
   return (
-    <section className="relative w-full h-screen bg-gray-800 overflow-hidden">
+    <section className="relative w-full bg-gray-800 overflow-hidden" style={{ height: '500px' }}>
       <Image src={imageSrc} alt={imageAlt} fill priority
              sizes="100vw" className="object-cover" />
     </section>

@@ -2,7 +2,7 @@
 // Fuente de datos centralizada. En producción, estos datos
 // vendrían de un CMS (Strapi, Sanity) o base de datos.
 
-import type { GalleryImageType, BlogPost, SiteConfig } from "@/types";
+import type { GalleryImageType, BlogPost, SiteConfig } from "../types";
 
 export const siteConfig: SiteConfig = {
   name: "Mi Sitio Web",
@@ -37,5 +37,21 @@ export const blogPosts: BlogPost[] = [
     date: "15 de marzo de 2025",
     excerpt: "Cómo la IA transforma los espacios de trabajo...",
     image: { src: "/img/img7.jpg", alt: "Robot en escritorio" },
+  },
+  {
+    id: 2,
+    slug: "diseno-web-moderno",
+    title: "Diseño Web Moderno",
+    date: "20 de marzo de 2025",
+    excerpt: "Tendencias actuales en diseño web y UX...",
+    image: { src: "/img/img2.jpg", alt: "Diseño web" },
+  },
+  {
+    id: 3,
+    slug: "programacion-futuro",
+    title: "El Futuro de la Programación",
+    date: "25 de marzo de 2025",
+    excerpt: "Cómo evolucionará el desarrollo de software...",
+    image: { src: "/img/img3.jpg", alt: "Programación" },
   },
 ];
