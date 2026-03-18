@@ -71,6 +71,3 @@ npm run dev
 
 URL producción: https://mi-sitio-nextjs.vercel.app
 
-## 📄 Licencia
-
-SENA CEET — Bogotá D.C., Colombia — 2026
