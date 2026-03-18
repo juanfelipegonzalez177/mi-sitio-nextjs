@@ -15,7 +15,7 @@ Proyecto desarrollado en el marco de la actividad **GitFlow + Next.js + Vercel**
  Dev-01 | Juan Felipe González | [@juanfelipegonzalez177](https://github.com/juanfelipegonzalez177) |
  Dev-02 | Cristian YAara | [@juanfelipegonzalez177](https://github.com/juanfelipegonzalez177) |
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 ```
 mi-sitio-nextjs/
 ├── app/
@@ -41,7 +41,7 @@ mi-sitio-nextjs/
     └── img/
 ```
 
-## 🌿 Ramas GitFlow
+##  Ramas GitFlow
 
 - `main` — versión estable en producción
 - `develop` — integración de features
